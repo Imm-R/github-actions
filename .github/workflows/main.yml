@@ -33,5 +33,5 @@ jobs:
       
       
     - name: Print Message for Ci finish
-       run: echo "CI Pipeline part Finished succesfully"
+      run: echo "CI Pipeline part Finished succesfully"
     
