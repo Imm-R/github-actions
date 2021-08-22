@@ -30,7 +30,7 @@ def calc_kvadrat(x):
 
 @application.route("/htmlpage")
 def show_html_page():
-    myfile = open("mypage.html", mode='r')
+    myfile = open("templates/index.html", mode='r')
     page = myfile.read()
     myfile.close()
     return page
